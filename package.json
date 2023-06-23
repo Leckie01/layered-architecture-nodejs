@@ -4,8 +4,15 @@
   "description": "Node.js with layered architecture",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.2.0",
+    "mysql2": "^3.3.5",
+    "nodemon": "^2.0.22",
+    "qs": "^6.11.2"
+  }
 }
